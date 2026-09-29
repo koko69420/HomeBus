@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="HomeBus_Logo.png" alt="HomeBus Logo" width="180">
+</p>
+
 # HomeBus
 
 HomeBus is a distributed, hard-wired home automation hardware and protocol platform built on RISC-V microcontrollers, full-duplex RS-422 serial networking, 24V centralized power distribution, and native Home Assistant integration.
@@ -56,6 +60,12 @@ flowchart TD
 ---
 
 ## Hardware Specification
+
+### Base Node Production Renders
+
+| Base Node — Front (3D Render) | Base Node — Back (3D Render) |
+| :---: | :---: |
+| ![HomeBus Base Node Front](Hardware/base_node/Front_production.png) | ![HomeBus Base Node Back](Hardware/base_node/Back_production.png) |
 
 ### Core Electronics & Microcontroller
 - **MCU**: WCH CH32X035 / CH32X033 (32-bit RISC-V QingKe V4C core, up to 48MHz, 62KB Flash, 20KB SRAM).
