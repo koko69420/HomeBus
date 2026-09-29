@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 2.0,
-          "width": 1.7
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -186,9 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -215,12 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -464,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "base_node.kicad_pro",
+    "filename": "base_node-rounded.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -493,7 +480,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
+        "track_width": 0.8,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -528,7 +515,7 @@
     "netclass_patterns": [
       {
         "netclass": "24V",
-        "pattern": "/+24V"
+        "pattern": "/+24vdc"
       },
       {
         "netclass": "5V",
@@ -557,7 +544,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Basenode_gerber/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

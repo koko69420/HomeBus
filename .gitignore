@@ -6,6 +6,8 @@
 
 fp-info-cache
 *.lck
+*~*.lck
+.~lock.*
 _autosave-*
 #auto_saved_files#
 
